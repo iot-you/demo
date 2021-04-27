@@ -13,7 +13,6 @@ const config = {
 window.query = function (sql) {
     console.log(config.user)
     mssql.connect(config).then(pool => {
-        // Query
         return pool.request()
             .input('input_parameter', mssql.Int, 1)
             .query('select * from mytable where id = @input_parameter')
