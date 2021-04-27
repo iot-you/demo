@@ -1,6 +1,6 @@
 {
   "name": "electron-api-demos",
-  "productName": "Electron API Demos",
+  "productName": "Electron Demos",
   "version": "2.0.2",
   "description": "Electron interactive API demos",
   "main": "main.js",
