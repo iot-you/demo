@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="assets/css/section.css">
   <link rel="stylesheet" href="assets/css/demo.css">
   <link rel="stylesheet" href="assets/css/github.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 
   <link rel="import" href="sections/about.html">
   <link rel="import" href="sections/windows/windows.html">
@@ -152,6 +153,8 @@
     require('./assets/demo-btns')
     require('./assets/code-blocks')
     require('./assets/normalize-shortcuts')
+    window.$ = window.jQuery = require('./node_modules/jquery/dist/jquery.min.js');
+    require('./node_modules/bootstrap/dist/js/bootstrap.min.js');
   </script>
 </body>
 
